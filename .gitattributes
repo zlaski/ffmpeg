@@ -1,2 +1,1 @@
-*.pnm -diff -text
-tests/ref/fate/sub-scc eol=crlf
+* text=auto eol=lf autcrlf=false
