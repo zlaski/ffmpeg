@@ -5,7 +5,7 @@
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4D334AAD-E126-4152-B5F2-B2A21387C611}</ProjectGuid>
-    <RootNamespace>ffmpegheaders</RootNamespace>
+    <RootNamespace>ffmpeg-headers</RootNamespace>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <PreBuildEvent>
@@ -13,8 +13,9 @@
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="copy-headers.bat" />
-    <None Include="copy-headers.lst" />
+    <None Include="ffmpeg-headers.bat" />
+    <None Include="ffmpeg-headers.lst" />
+    <None Include="ffmpeg-headers.avconfig.h.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />

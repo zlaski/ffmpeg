@@ -4,8 +4,9 @@
     <Import Project="$(SolutionDir)akibld-lib.props" />
   </ImportGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{38B741EE-F1B8-4415-BF2A-F6EDC69A1A3C}</ProjectGuid>
-    <RootNamespace>libswresample</RootNamespace>
+    <ProjectGuid>{B684BBC8-E4C7-4687-BD82-9CFFCCF434C2}</ProjectGuid>
+    <RootNamespace>ffmpeg-libavutil</RootNamespace>
+    <ProjectName>ffmpeg-libavutil</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />

@@ -18,4 +18,9 @@
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;y;yy;l;asm;asmx;java;cs</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="__PreBuild.bat">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

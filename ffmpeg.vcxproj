@@ -4,34 +4,37 @@
     <Import Project="$(SolutionDir)akibld-lib.props" />
   </ImportGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3DF747E8-AB1B-443A-AB11-072EE2ED8E21}</ProjectGuid>
+    <ProjectGuid>{536658C6-B052-4A6B-A14F-BCC3CD81CFB9}</ProjectGuid>
     <RootNamespace>ffmpeg</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="libavcodec\libavcodec.vcxproj">
+    <ProjectReference Include="libavcodec\ffmpeg-libavcodec.vcxproj">
       <Project>{1c885f89-2f8a-44d6-8b89-5e07fed1c1cc}</Project>
     </ProjectReference>
-    <ProjectReference Include="libavdevice\libavdevice.vcxproj">
+    <ProjectReference Include="libavdevice\ffmpeg-libavdevice.vcxproj">
       <Project>{012859c6-b289-4d7a-bcb5-aa3070d93584}</Project>
     </ProjectReference>
-    <ProjectReference Include="libavfilter\libavfilter.vcxproj">
+    <ProjectReference Include="libavfilter\ffmpeg-libavfilter.vcxproj">
       <Project>{d9454712-3e00-462b-a0fc-74582a32acf4}</Project>
     </ProjectReference>
-    <ProjectReference Include="libavformat\libavformat.vcxproj">
+    <ProjectReference Include="libavformat\ffmpeg-libavformat.vcxproj">
       <Project>{619d0226-a622-4ace-8f23-60c55df940e1}</Project>
     </ProjectReference>
-    <ProjectReference Include="libavutil\libavutil.vcxproj">
+    <ProjectReference Include="libavutil\ffmpeg-libavutil.vcxproj">
       <Project>{b684bbc8-e4c7-4687-bd82-9cffccf434c2}</Project>
     </ProjectReference>
-    <ProjectReference Include="libpostproc\libpostproc.vcxproj">
+    <ProjectReference Include="libpostproc\ffmpeg-libpostproc.vcxproj">
       <Project>{300e2b3d-7cc8-4d2a-a826-d135900a6069}</Project>
     </ProjectReference>
-    <ProjectReference Include="libswresample\libswresample.vcxproj">
+    <ProjectReference Include="libswresample\ffmpeg-libswresample.vcxproj">
       <Project>{38b741ee-f1b8-4415-bf2a-f6edc69a1a3c}</Project>
     </ProjectReference>
-    <ProjectReference Include="libswscale\libswscale.vcxproj">
+    <ProjectReference Include="libswscale\ffmpeg-libswscale.vcxproj">
       <Project>{8a64fa3b-bdee-4c1c-98f0-aae4a156e730}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="__PreBuild.bat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />

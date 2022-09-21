@@ -5,8 +5,17 @@
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1C885F89-2F8A-44D6-8B89-5E07FED1C1CC}</ProjectGuid>
-    <RootNamespace>libavcodec</RootNamespace>
+    <RootNamespace>ffmpeg-libavcodec</RootNamespace>
+    <ProjectName>ffpmeg-libavcodec</ProjectName>
   </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="avcodec.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ffmpeg-headers.vcxproj">
+      <Project>{4d334aad-e126-4152-b5f2-b2a21387c611}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
