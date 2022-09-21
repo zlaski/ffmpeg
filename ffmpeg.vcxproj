@@ -33,9 +33,6 @@
       <Project>{8a64fa3b-bdee-4c1c-98f0-aae4a156e730}</Project>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="__PreBuild.bat" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
