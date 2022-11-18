@@ -19,8 +19,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ffmpeg-lib.props">
+    <None Include="ffmpeg-headers.bat">
       <Filter>Build Files</Filter>
     </None>
+    <None Include="ffmpeg-headers.lst">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avconfig.h.in">
+      <Filter>Build Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ffmpeg-headers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

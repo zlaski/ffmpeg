@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)akibld-lib.props" />
+    <Import Project="..\ffmpeg-lib.props" />
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1C885F89-2F8A-44D6-8B89-5E07FED1C1CC}</ProjectGuid>
     <RootNamespace>ffmpeg-libavcodec</RootNamespace>
-    <ProjectName>ffpmeg-libavcodec</ProjectName>
+    <ProjectName>ffmpeg-libavcodec</ProjectName>
   </PropertyGroup>
   <ItemGroup>
-    <ClInclude Include="avcodec.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ffmpeg-headers.vcxproj">
-      <Project>{4d334aad-e126-4152-b5f2-b2a21387c611}</Project>
+      <Project>{b7058364-6c36-44d8-a1d9-6162363bebb0}</Project>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ItemGroup>
+    <ClCompile Include="4xm.c" />
+  </ItemGroup>
 </Project>

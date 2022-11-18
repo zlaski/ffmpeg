@@ -18,4 +18,399 @@
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;y;yy;l;asm;asmx;java;cs</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adler32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aes_ctr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aes_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avassert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blowfish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bswap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camellia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cast5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="des.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detection_bbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dovi_meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="downmix_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="film_grain_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixed_dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="float_dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="float2half.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getenv_utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="half2float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr_dynamic_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr_dynamic_vivid_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_cuda_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_d3d11va.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_drm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_dxva2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_mediacodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_opencl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_qsv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_vaapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_vdpau.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_videotoolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwcontext_vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgutils_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intfloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intreadwrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lzo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macos_kperf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mastering_display_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="murmur3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parseutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pixdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pixfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random_seed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="replaygain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ripemd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="samplefmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha512.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="slicethread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="softfloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="softfloat_ieee754.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="softfloat_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spherical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stereo3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadmessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="twofish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tx_priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version_major.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_enc_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wchar_filename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xga_font_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xtea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)akibld-lib.props" />
+    <Import Project="ffmpeg-lib.props" />
   </ImportGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4D334AAD-E126-4152-B5F2-B2A21387C611}</ProjectGuid>
+    <ProjectGuid>{B7058364-6C36-44D8-A1D9-6162363BEBB0}</ProjectGuid>
     <RootNamespace>ffmpeg-headers</RootNamespace>
+    <ProjectName>ffmpeg-headers</ProjectName>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <PreBuildEvent>
       <Command>ffmpeg-headers.bat "$(OutDir)"</Command>
+      <Message>Installing FFMPEG headers . . .</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="avconfig.h.in" />
+    <ClInclude Include="config.h" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="ffmpeg-headers.bat" />
     <None Include="ffmpeg-headers.lst" />
-    <None Include="ffmpeg-headers.avconfig.h.in" />
   </ItemGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ItemGroup>
+    <ClCompile Include="ffmpeg-headers.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\svn\akibld\src\akisystems\akibld\akibld-headers.vcxproj">
+      <Project>{07fa51f2-cd6f-400f-8821-ebfe0040f2d6}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

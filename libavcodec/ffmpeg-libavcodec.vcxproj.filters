@@ -19,8 +19,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="avcodec.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="4xm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

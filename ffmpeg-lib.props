@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)akibld-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <FFMPEG_Root>$(MSBuildThisFileDirectory)</FFMPEG_Root>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="FFMPEG_Root">
+      <Value>$(FFMPEG_Root)</Value>
+    </BuildMacro>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(FFMPEG_Root);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CONFIG_SMALL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4244;4100;4389;4018;4457;4334;4245;4101;4324;6297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

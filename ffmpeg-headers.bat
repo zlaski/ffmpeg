@@ -1,17 +1,26 @@
 @echo off
+setlocal EnableExtensions EnableDelayedExpansion
 
 set OutDir=%~1
 
 pushd %~dp0
 
-echo Installing FFMPEG headers into "%OutDir%..\include" . . .
-
-for /F "usebackq tokens=*" %%H in ("ffmpeg-headers.lst") do (
-    xcopy /s /r /y "%%H" "%OutDir%..\include\%%H*"
-    attrib +R "%OutDir%..\include\%%H"
+for /F %%H in (ffmpeg-headers.lst) do (
+    set QHDR="%OutDir%..\include\%%H"
+    echo %%H -^> !QHDR!
+    for %%D in (!QHDR!) do set QDIR="%%~dpD"
+    mkdir !QDIR! 2>nul
+    attrib -R !QHDR! >nul
+    echo EMPTY >!QHDR!
+    xcopy /s /r /y /q %%H !QHDR! >nul
+    attrib +R !QHDR!
 )
 
-xcopy /r /y ffmpeg-headers.avconfig.h.in "%OutDir%..\include\libavutil\avconfig.h*"
-attrib +R "%OutDir%..\include\libavutil\avconfig.h"
+set AVCONF="%OutDir%..\include\libavutil\avconfig.h"
+echo avconfig.h.in -^> %AVCONF%
+attrib -R %AVCONF% >nul
+echo EMPTY >%AVCONF%
+xcopy /s /r /y /q avconfig.h.in %AVCONF% >nul
+attrib +R %AVCONF%
 
 popd

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(SolutionDir)akibld-lib.props" />
+    <Import Project="..\ffmpeg-lib.props" />
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{300E2B3D-7CC8-4D2A-A826-D135900A6069}</ProjectGuid>
     <RootNamespace>ffmpeg-libpostproc</RootNamespace>
     <ProjectName>ffmpeg-libpostproc</ProjectName>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\ffmpeg-headers.vcxproj">
+      <Project>{b7058364-6c36-44d8-a1d9-6162363bebb0}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
