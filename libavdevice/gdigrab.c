@@ -34,6 +34,7 @@
 #include "libavutil/time.h"
 #include "libavutil/wchar_filename.h"
 #include <windows.h>
+#include <wchar.h>
 
 /**
  * GDI Device Demuxer context
