@@ -29,12 +29,14 @@
  */
 
 #include "config.h"
+
+#include <windows.h>
+#include <wchar.h>
+
 #include "libavformat/internal.h"
 #include "libavutil/opt.h"
 #include "libavutil/time.h"
 #include "libavutil/wchar_filename.h"
-#include <windows.h>
-#include <wchar.h>
 
 /**
  * GDI Device Demuxer context
