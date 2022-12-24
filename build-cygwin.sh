@@ -10,7 +10,8 @@ rm -rf .build || exit 1
 mkdir -p .build || exit 1
 cd .build || exit 1
 
-SHELL='/bin/bash -x' ../configure --prefix=$CMAKE_INSTALL_PREFIX || exit 1
+SHELL='/bin/bash -x' ../configure --prefix=$CMAKE_INSTALL_PREFIX --enable-debug=gdb \
+    --disable-doc --enable-static --disable-shared --pkg-config-flags=--static || exit 1
     
 make SHELL='/bin/bash -x' || exit 1
 make install SHELL='/bin/bash -x' || exit 1
