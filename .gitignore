@@ -1,1 +1,2 @@
-D:/svn/akibld/src/akisystems/akibld/templ/akibld.gitignore
+.build/
+.install/
