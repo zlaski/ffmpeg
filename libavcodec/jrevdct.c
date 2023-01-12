@@ -72,14 +72,9 @@
 
 #define EIGHT_BIT_SAMPLES
 
-#define DCTSIZE 8
-#define DCTSIZE2 64
-
 #define GLOBAL
 
 #define RIGHT_SHIFT(x, n) ((x) >> (n))
-
-typedef int16_t DCTBLOCK[DCTSIZE2];
 
 #define CONST_BITS 13
 

@@ -352,7 +352,7 @@ sigterm_handler(int sig)
 #if HAVE_SETCONSOLECTRLHANDLER
 static BOOL WINAPI CtrlHandler(DWORD fdwCtrlType)
 {
-    av_log(NULL, AV_LOG_DEBUG, "\nReceived windows signal %ld\n", fdwCtrlType);
+    av_log(NULL, AV_LOG_DEBUG, "\nReceived windows signal %d\n", fdwCtrlType);
 
     switch (fdwCtrlType)
     {
@@ -375,7 +375,7 @@ static BOOL WINAPI CtrlHandler(DWORD fdwCtrlType)
         return TRUE;
 
     default:
-        av_log(NULL, AV_LOG_ERROR, "Received unknown windows signal %ld\n", fdwCtrlType);
+        av_log(NULL, AV_LOG_ERROR, "Received unknown windows signal %d\n", fdwCtrlType);
         return FALSE;
     }
 }

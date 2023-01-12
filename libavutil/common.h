@@ -568,6 +568,9 @@ static av_always_inline av_const int av_parity_c(uint32_t v)
     }\
 
 
+/* All 'snprintf' calls seem to trigger this warning on newer GCCs. */
+#pragma GCC diagnostic ignored "-Wformat-truncation"
+
 
 #include "mem.h"
 

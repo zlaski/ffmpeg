@@ -71,7 +71,7 @@ struct gdigrab {
 };
 
 #define WIN32_API_ERROR(str)                                            \
-    av_log(s1, AV_LOG_ERROR, str " (error %li)\n", GetLastError())
+    av_log(s1, AV_LOG_ERROR, str " (error %u)\n", GetLastError())
 
 #define REGION_WND_BORDER 3
 
@@ -331,7 +331,7 @@ gdigrab_read_header(AVFormatContext *s1)
             clip_rect.right > virtual_rect.right ||
             clip_rect.bottom > virtual_rect.bottom) {
             av_log(s1, AV_LOG_ERROR,
-                    "Capture area (%li,%li),(%li,%li) extends outside window area (%li,%li),(%li,%li)",
+                    "Capture area (%i,%i),(%i,%i) extends outside window area (%i,%i),(%i,%i)",
                     clip_rect.left, clip_rect.top,
                     clip_rect.right, clip_rect.bottom,
                     virtual_rect.left, virtual_rect.top,
@@ -343,14 +343,14 @@ gdigrab_read_header(AVFormatContext *s1)
 
     if (name) {
         av_log(s1, AV_LOG_INFO,
-               "Found window %s, capturing %lix%lix%i at (%li,%li)\n",
+               "Found window %s, capturing %ix%ix%i at (%i,%i)\n",
                name,
                clip_rect.right - clip_rect.left,
                clip_rect.bottom - clip_rect.top,
                bpp, clip_rect.left, clip_rect.top);
     } else {
         av_log(s1, AV_LOG_INFO,
-               "Capturing whole desktop as %lix%lix%i at (%li,%li)\n",
+               "Capturing whole desktop as %ix%ix%i at (%i,%i)\n",
                clip_rect.right - clip_rect.left,
                clip_rect.bottom - clip_rect.top,
                bpp, clip_rect.left, clip_rect.top);
@@ -515,7 +515,7 @@ static void paint_mouse_pointer(AVFormatContext *s1, struct gdigrab *gdigrab)
             pos.y = ci.ptScreenPos.y * desktopvertres / vertres - clip_rect.top - info.yHotspot;
         }
 
-        av_log(s1, AV_LOG_DEBUG, "Cursor pos (%li,%li) -> (%li,%li)\n",
+        av_log(s1, AV_LOG_DEBUG, "Cursor pos (%i,%i) -> (%i,%i)\n",
                 ci.ptScreenPos.x, ci.ptScreenPos.y, pos.x, pos.y);
 
         if (pos.x >= 0 && pos.x <= clip_rect.right - clip_rect.left &&

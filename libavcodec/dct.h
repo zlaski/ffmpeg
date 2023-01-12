@@ -29,6 +29,11 @@
 
 #include "rdft.h"
 
+#define DCTSIZE 8
+#define DCTSIZE2 64
+
+typedef int16_t DCTBLOCK[DCTSIZE2];
+
 struct DCTContext {
     int nbits;
     int inverse;
@@ -59,10 +64,10 @@ void ff_jpeg_fdct_islow_10(int16_t *data);
 void ff_fdct248_islow_8(int16_t *data);
 void ff_fdct248_islow_10(int16_t *data);
 
-void ff_j_rev_dct(int16_t *data);
-void ff_j_rev_dct4(int16_t *data);
-void ff_j_rev_dct2(int16_t *data);
-void ff_j_rev_dct1(int16_t *data);
+void ff_j_rev_dct(DCTBLOCK data);
+void ff_j_rev_dct4(DCTBLOCK data);
+void ff_j_rev_dct2(DCTBLOCK data);
+void ff_j_rev_dct1(DCTBLOCK data);
 void ff_jref_idct_put(uint8_t *dest, ptrdiff_t line_size, int16_t *block);
 void ff_jref_idct_add(uint8_t *dest, ptrdiff_t line_size, int16_t *block);
 

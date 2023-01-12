@@ -249,7 +249,7 @@ static int tls_client_handshake_loop(URLContext *h, int initial)
             if (sspi_ret == SEC_E_WRONG_PRINCIPAL)
                 av_log(h, AV_LOG_ERROR, "SNI or certificate check failed\n");
             else
-                av_log(h, AV_LOG_ERROR, "Creating security context failed (0x%lx)\n", sspi_ret);
+                av_log(h, AV_LOG_ERROR, "Creating security context failed (0x%x)\n", sspi_ret);
             ret = AVERROR_UNKNOWN;
             goto fail;
         }
@@ -310,7 +310,7 @@ static int tls_client_handshake(URLContext *h)
                                          NULL, 0, &c->ctxt_handle, &outbuf_desc, &c->context_flags,
                                          &c->ctxt_timestamp);
     if (sspi_ret != SEC_I_CONTINUE_NEEDED) {
-        av_log(h, AV_LOG_ERROR, "Unable to create initial security context (0x%lx)\n", sspi_ret);
+        av_log(h, AV_LOG_ERROR, "Unable to create initial security context (0x%x)\n", sspi_ret);
         ret = AVERROR_UNKNOWN;
         goto fail;
     }
@@ -363,7 +363,7 @@ static int tls_open(URLContext *h, const char *uri, int flags, AVDictionary **op
                                         NULL,  &schannel_cred, NULL, NULL, &c->cred_handle,
                                         &c->cred_timestamp);
     if (sspi_ret != SEC_E_OK) {
-        av_log(h, AV_LOG_ERROR, "Unable to acquire security credentials (0x%lx)\n", sspi_ret);
+        av_log(h, AV_LOG_ERROR, "Unable to acquire security credentials (0x%x)\n", sspi_ret);
         ret = AVERROR_UNKNOWN;
         goto fail;
     }

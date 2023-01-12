@@ -439,7 +439,7 @@ static int d3d11va_get_decoder_configuration(AVCodecContext *avctx,
     for (i = 0; i < cfg_count; i++) {
         hr = ID3D11VideoDevice_GetVideoDecoderConfig(video_device, desc, i, &cfg_list[i]);
         if (FAILED(hr)) {
-            av_log(avctx, AV_LOG_ERROR, "Unable to retrieve decoder configurations. (hr=0x%lX)\n", hr);
+            av_log(avctx, AV_LOG_ERROR, "Unable to retrieve decoder configurations. (hr=0x%X)\n", hr);
             av_free(cfg_list);
             return AVERROR(EINVAL);
         }
@@ -772,7 +772,6 @@ unsigned ff_dxva2_get_surface_index(const AVCodecContext *avctx,
                                     const AVFrame *frame)
 {
     void *surface = get_surface(avctx, frame);
-    unsigned i;
 
 #if CONFIG_D3D11VA
     if (avctx->pix_fmt == AV_PIX_FMT_D3D11)
@@ -784,7 +783,7 @@ unsigned ff_dxva2_get_surface_index(const AVCodecContext *avctx,
     }
 #endif
 #if CONFIG_DXVA2
-    for (i = 0; i < DXVA_CONTEXT_COUNT(avctx, ctx); i++) {
+    for (unsigned i = 0; i < DXVA_CONTEXT_COUNT(avctx, ctx); i++) {
         if (avctx->pix_fmt == AV_PIX_FMT_DXVA2_VLD && ctx->dxva2.surface[i] == surface)
             return i;
     }

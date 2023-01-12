@@ -343,7 +343,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         NULL,
         &dda->vertex_shader);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateVertexShader failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateVertexShader failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -354,7 +354,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         FF_ARRAY_ELEMS(vertex_shader_bytes),
         &dda->input_layout);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateInputLayout failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateInputLayout failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -364,7 +364,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         NULL,
         &dda->pixel_shader);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreatePixelShader failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreatePixelShader failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -379,7 +379,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         &buffer_data,
         &dda->const_buffer);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateBuffer const buffer failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateBuffer const buffer failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -392,7 +392,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         &sampler_desc,
         &dda->sampler_state);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateSamplerState failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateSamplerState failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -410,7 +410,7 @@ static av_cold int init_render_resources(AVFilterContext *avctx)
         &blend_desc,
         &dda->blend_state);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateBlendState failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateBlendState failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -477,7 +477,7 @@ static int create_d3d11_pointer_tex(AVFilterContext *avctx,
         res_view);
     if (FAILED(hr)) {
         release_resource(out_tex);
-        av_log(avctx, AV_LOG_ERROR, "CreateShaderResourceView for mouse failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateShaderResourceView for mouse failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -553,7 +553,7 @@ static int update_mouse_pointer(AVFilterContext *avctx, DXGI_OUTDUPL_FRAME_INFO 
             &shape_info);
         if (FAILED(hr)) {
             av_free(buf);
-            av_log(avctx, AV_LOG_ERROR, "Failed getting pointer shape: %lx\n", hr);
+            av_log(avctx, AV_LOG_ERROR, "Failed getting pointer shape: %x\n", hr);
             return AVERROR_EXTERNAL;
         }
 
@@ -601,7 +601,7 @@ static int next_frame_internal(AVFilterContext *avctx, ID3D11Texture2D **desktop
     if (hr == DXGI_ERROR_WAIT_TIMEOUT) {
         return AVERROR(EAGAIN);
     } else if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "AcquireNextFrame failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "AcquireNextFrame failed: %x\n", hr);
         return AVERROR_EXTERNAL;
     }
 
@@ -808,7 +808,7 @@ static int draw_mouse_pointer(AVFilterContext *avctx, AVFrame *frame)
         &target_desc,
         &target_view);
     if (FAILED(hr)) {
-        av_log(avctx, AV_LOG_ERROR, "CreateRenderTargetView failed: %lx\n", hr);
+        av_log(avctx, AV_LOG_ERROR, "CreateRenderTargetView failed: %x\n", hr);
         ret = AVERROR_EXTERNAL;
         goto end;
     }
@@ -851,7 +851,7 @@ static int draw_mouse_pointer(AVFilterContext *avctx, AVFrame *frame)
             &init_data,
             &mouse_vertex_buffer);
         if (FAILED(hr)) {
-            av_log(avctx, AV_LOG_ERROR, "CreateBuffer failed: %lx\n", hr);
+            av_log(avctx, AV_LOG_ERROR, "CreateBuffer failed: %x\n", hr);
             ret = AVERROR_EXTERNAL;
             goto end;
         }
