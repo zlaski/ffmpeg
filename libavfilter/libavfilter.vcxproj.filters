@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{4FC347F1-C7A5-4336-A166-2A32D982A2FF}</UniqueIdentifier>
+      <Extensions>bat;cmd;ps1;cmake;am;in;sh;bash</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mp3;flac;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;y;yy;l;asm;asmx;java;cs</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libavfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="af_afir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="af_afirdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="af_anlmdndsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="af_volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atadenoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avf_showcqt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boxblur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bufferqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffersink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffersrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bwdif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colorspacedsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn_filter_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dnn_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ebur128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="edge_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fflcms2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framepool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framequeue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framerate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framesync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gblur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generate_wave_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gradfun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hermite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hflip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lavfutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="limiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lswsutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lut3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maskedclamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maskedmerge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="median.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opencl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opencl_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="palette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="preserve_color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psnr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qp_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qsvvpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="removegrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scale_eval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stereo3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threshold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinterlace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transpose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unsharp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v360.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vaapi_vpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version_major.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_blend_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_eq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_fspp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_gblur_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_hflip_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_hqdn3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_idet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_nlmeans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_nlmeans_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_pp7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_pullup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_scale_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_spp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vf_threshold_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vidstabutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vmaf_motion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vsrc_ddagrab_shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vulkan_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w3fdif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yadif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

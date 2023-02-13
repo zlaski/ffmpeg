@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(registry:HKEY_CURRENT_USER\SOFTWARE\Akisystems\AKIBLD@Sources)akibld-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7058364-6C36-44D8-A1D9-6162363BEBB0}</ProjectGuid>
+    <RootNamespace>ffmpeg-headers</RootNamespace>
+    <ProjectName>ffmpeg-headers</ProjectName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <PreBuildEvent>
+      <Command>ffmpeg-headers.bat "$(OutDir)"</Command>
+      <Message>Installing FFMPEG headers . . .</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ffmpeg-con.props" />
+    <None Include="ffmpeg-headers.bat" />
+    <None Include="ffmpeg-headers.lst" />
+    <None Include="ffmpeg-lib.props" />
+    <None Include="ffmpeg.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ffmpeg-headers.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compat\atomics\win32\stdatomic.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="config_components.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(registry:HKEY_CURRENT_USER\SOFTWARE\Akisystems\AKIBLD@Sources)akibld-lib.vcxproj">
+      <Project>{23650bdb-c46f-43ce-8c77-056924f69b6a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

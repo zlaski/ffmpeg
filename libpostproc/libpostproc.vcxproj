@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\ffmpeg-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{300E2B3D-7CC8-4D2A-A826-D135900A6069}</ProjectGuid>
+    <RootNamespace>libpostproc</RootNamespace>
+    <ProjectName>libpostproc</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="libpostproc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="postprocess.h" />
+    <ClInclude Include="postprocess_internal.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="version_major.h" />
+  </ItemGroup>
+</Project>

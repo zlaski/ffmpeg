@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{4FC347F1-C7A5-4336-A166-2A32D982A2FF}</UniqueIdentifier>
+      <Extensions>bat;cmd;ps1;cmake;am;in;sh;bash</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mp3;flac;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;y;yy;l;asm;asmx;java;cs</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libavformat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apetag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="argo_asf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asfcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="av1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avio_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avlanguage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="caf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dovi_isom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flac_picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flacenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gxf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hls_sample_encryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsplaylist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="httpauth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="id3v1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="id3v2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="img2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ircam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegxl_probe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matroska.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mov_chan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movenc_ttml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movenccenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mxf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oggdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="os_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtpalette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rawdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rawenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rawutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rdt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="replaygain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="riff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rmsipr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmpcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmpdh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmppkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpdec_formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpenc_chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpproto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sauce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spdif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="srtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subtitles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tee_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmlenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="url.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urldecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version_major.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="voc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbiscomment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vpcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="w64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wtv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yuv4mpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

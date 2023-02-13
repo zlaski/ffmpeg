@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\ffmpeg-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{619D0226-A622-4ACE-8F23-60C55DF940E1}</ProjectGuid>
+    <RootNamespace>libavformat</RootNamespace>
+    <ProjectName>libavformat</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="libavformat.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aiff.h" />
+    <ClInclude Include="apetag.h" />
+    <ClInclude Include="argo_asf.h" />
+    <ClInclude Include="asf.h" />
+    <ClInclude Include="asfcrypt.h" />
+    <ClInclude Include="ast.h" />
+    <ClInclude Include="av1.h" />
+    <ClInclude Include="avc.h" />
+    <ClInclude Include="avformat.h" />
+    <ClInclude Include="avi.h" />
+    <ClInclude Include="avio.h" />
+    <ClInclude Include="avio_internal.h" />
+    <ClInclude Include="avlanguage.h" />
+    <ClInclude Include="caf.h" />
+    <ClInclude Include="dash.h" />
+    <ClInclude Include="demux.h" />
+    <ClInclude Include="dovi_isom.h" />
+    <ClInclude Include="dv.h" />
+    <ClInclude Include="ffmeta.h" />
+    <ClInclude Include="flacenc.h" />
+    <ClInclude Include="flac_picture.h" />
+    <ClInclude Include="flv.h" />
+    <ClInclude Include="gxf.h" />
+    <ClInclude Include="hevc.h" />
+    <ClInclude Include="hlsplaylist.h" />
+    <ClInclude Include="hls_sample_encryption.h" />
+    <ClInclude Include="http.h" />
+    <ClInclude Include="httpauth.h" />
+    <ClInclude Include="id3v1.h" />
+    <ClInclude Include="id3v2.h" />
+    <ClInclude Include="imf.h" />
+    <ClInclude Include="img2.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="ip.h" />
+    <ClInclude Include="ircam.h" />
+    <ClInclude Include="isom.h" />
+    <ClInclude Include="jpegxl_probe.h" />
+    <ClInclude Include="lrc.h" />
+    <ClInclude Include="matroska.h" />
+    <ClInclude Include="metadata.h" />
+    <ClInclude Include="mms.h" />
+    <ClInclude Include="movenc.h" />
+    <ClInclude Include="movenccenc.h" />
+    <ClInclude Include="movenc_ttml.h" />
+    <ClInclude Include="mov_chan.h" />
+    <ClInclude Include="mpeg.h" />
+    <ClInclude Include="mpegts.h" />
+    <ClInclude Include="mux.h" />
+    <ClInclude Include="mxf.h" />
+    <ClInclude Include="network.h" />
+    <ClInclude Include="nut.h" />
+    <ClInclude Include="oggdec.h" />
+    <ClInclude Include="oma.h" />
+    <ClInclude Include="options_table.h" />
+    <ClInclude Include="os_support.h" />
+    <ClInclude Include="pcm.h" />
+    <ClInclude Include="qtpalette.h" />
+    <ClInclude Include="rawdec.h" />
+    <ClInclude Include="rawenc.h" />
+    <ClInclude Include="rawutils.h" />
+    <ClInclude Include="rdt.h" />
+    <ClInclude Include="replaygain.h" />
+    <ClInclude Include="riff.h" />
+    <ClInclude Include="rm.h" />
+    <ClInclude Include="rmsipr.h" />
+    <ClInclude Include="rso.h" />
+    <ClInclude Include="rtmp.h" />
+    <ClInclude Include="rtmpcrypt.h" />
+    <ClInclude Include="rtmpdh.h" />
+    <ClInclude Include="rtmppkt.h" />
+    <ClInclude Include="rtp.h" />
+    <ClInclude Include="rtpdec.h" />
+    <ClInclude Include="rtpdec_formats.h" />
+    <ClInclude Include="rtpenc.h" />
+    <ClInclude Include="rtpenc_chain.h" />
+    <ClInclude Include="rtpproto.h" />
+    <ClInclude Include="rtsp.h" />
+    <ClInclude Include="rtspcodes.h" />
+    <ClInclude Include="sauce.h" />
+    <ClInclude Include="smjpeg.h" />
+    <ClInclude Include="sox.h" />
+    <ClInclude Include="spdif.h" />
+    <ClInclude Include="srtp.h" />
+    <ClInclude Include="subtitles.h" />
+    <ClInclude Include="swf.h" />
+    <ClInclude Include="tee_common.h" />
+    <ClInclude Include="tls.h" />
+    <ClInclude Include="ttmlenc.h" />
+    <ClInclude Include="url.h" />
+    <ClInclude Include="urldecode.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="version_major.h" />
+    <ClInclude Include="voc.h" />
+    <ClInclude Include="vorbiscomment.h" />
+    <ClInclude Include="vpcc.h" />
+    <ClInclude Include="w64.h" />
+    <ClInclude Include="wtv.h" />
+    <ClInclude Include="wv.h" />
+    <ClInclude Include="yuv4mpeg.h" />
+  </ItemGroup>
+</Project>

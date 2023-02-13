@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\ffmpeg-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A64FA3B-BDEE-4C1C-98F0-AAE4A156E730}</ProjectGuid>
+    <RootNamespace>libswscale</RootNamespace>
+    <ProjectName>libswscale</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="libswscale.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rgb2rgb.h" />
+    <ClInclude Include="swscale.h" />
+    <ClInclude Include="swscale_internal.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="version_major.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\..\ffmpeg-con.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3DF747E8-AB1B-443A-AB11-072EE2ED8E21}</ProjectGuid>
+    <RootNamespace>decode_audio</RootNamespace>
+    <ProjectName>decode_audio</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="decode_audio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libavcodec\libavcodec.vcxproj">
+      <Project>{1c885f89-2f8a-44d6-8b89-5e07fed1c1cc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libavutil\libavutil.vcxproj">
+      <Project>{b684bbc8-e4c7-4687-bd82-9cffccf434c2}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{4FC347F1-C7A5-4336-A166-2A32D982A2FF}</UniqueIdentifier>
+      <Extensions>bat;cmd;ps1;cmake;am;in;sh;bash</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mp3;flac;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;y;yy;l;asm;asmx;java;cs</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a64colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a64tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac_ac3_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aaccoder_trellis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aaccoder_twoloop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacdectab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_is.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_ltp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_quantization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_quantization_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_tns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenctab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacps_fixed_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacps_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacpsdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacsbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacsbrdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aactab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aandcttab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3_channel_layout_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3_parser_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3dec_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ac3tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acelp_filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acelp_pitch_delay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acelp_vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adpcm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adpcm_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adts_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adts_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alac_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alacdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amfenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amrnbdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amrwbdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aptx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ass_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac1data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac3data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac3plus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac3plus_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atrac9tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atsc_a53.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_frame_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audiodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="av1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="av1_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="av1dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avcodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avfft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avs2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="avs3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bethsoftvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bgmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binkdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binkdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bintext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bsf_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bswapdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bytestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cabac_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="canopus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cavs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cavsdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbrt_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbrt_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_av1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_bsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_h264.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_h265.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_h2645.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_jpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_mpeg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cbs_vp9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="celp_filters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="celp_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfhd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfhddsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfhdencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cga_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clearvideodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec_desc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec_par.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codec2utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cookdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="copy_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d11va.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_exss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_lbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_sample_rate_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_syncwords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dca_xll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcaadpcm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcadct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcadec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcadsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcaenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcahuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dcamath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dct32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dctref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirac_arith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirac_dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirac_vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diracdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diractab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dnxhddata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dnxhdenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dolby_e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dovi_rpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv_profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv_profile_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dv_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvbtxt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dvdsub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxva2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxva2_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_hdr_vivid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_hdr10_plus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eac3_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eac3enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eaidct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elsdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error_resilience.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="evrcdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exrdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faandct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faanidct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faxcompr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fdctdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffjni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fflcms2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fft_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fft-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffv1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flac_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flacdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flacdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flacencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flvdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flvenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fmtconvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_thread_encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g722.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g722dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g723_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g729.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g729data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g729postfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="golomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gsmdec_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h261.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h261enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h263enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_levels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_mvpred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_ps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264chroma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264idct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h264qpel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h265_profile_level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h274.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h2645_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h2645_sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h2645_vui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h2645data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hca_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc_ps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevc_sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevcdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevcdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hevcpred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hpeldsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hq_hqa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hq_hqadsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hqx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hqxdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="htmlsubtitles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffyuv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffyuvdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="huffyuvencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwaccels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hwconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idctdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iirfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ilbcdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imcdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indeo2data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indeo3data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indeo4data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indeo5data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrax8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrax8dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrax8huf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ivi_dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jacosub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg2000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg2000dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg2000dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglsdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegquanttables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegtables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpegtabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kbdwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lagarithrac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lcl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libaom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libjxl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libopenh264.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libopus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libvpx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebpenc_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lossless_audiodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lossless_videodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lossless_videoencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lzf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lzw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="me_cmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediacodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediacodec_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediacodec_sw_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediacodec_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediacodecdec_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metasound_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metasound_twinvq_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mf_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mjpegdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mjpegenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mjpegenc_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mjpegenc_huffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mlpdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mlz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_est.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motionpixels_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpc7data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpc8data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpc8huff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpcdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg_er.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4audio_copy_pce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4audio_sample_rates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4video_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4videodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4videodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4videodefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4videodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg4videoenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12codecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpeg12vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudio_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiodec_common_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiodecheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiotab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegaudiotabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegpicture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideoenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpegvideoencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mqc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msgsmdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msmpeg4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msmpeg4_vc1_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msmpeg4data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msmpeg4dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msmpeg4enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msrledec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mss2dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mss12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mss34dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nellymoser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nvdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nvenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="on2avcdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus_celt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus_pvq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus_rc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opus_silk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opusdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opusenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opusenc_psy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opusenc_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opustab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcm_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pixblockdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pngdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pnm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="profiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proresdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proresdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proresdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psymodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="put_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="put_golomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcelpdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qdm2_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qdm2data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qpeldsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qsv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qsv_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qsvenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ra144.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ra288.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ralfdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rangecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ratecontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rdft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rnd_avg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roqvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv10dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv10enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv30data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv34.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv34data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv34dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv34vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv40data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rv40vlc2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbcdec_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbcdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbcdsp_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scpr3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sheervideodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_idct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sinewin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sinewin_fixed_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sinewin_tablegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sipr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sipr16kdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="siprdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snappy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snow_dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snowdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sp5x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speedhq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speedhqenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speexdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="startcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sunrast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svq1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svq1_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svq1_vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svq1enc_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="svq1encdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="synth_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tableprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tableprint_vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="takdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texturedsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiff_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiff_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="to_upper4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tpeldsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="truemotion1data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="truespeech_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tscc2data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttadsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttaencdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ttmlenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="twinvq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="twinvq_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ulti_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utvideodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v4l2_buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v4l2_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v4l2_fmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v4l2_m2m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v210dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v210dec_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v210enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="v210enc_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vaapi_decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vaapi_encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vaapi_hevc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vbn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1_pred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1_vlc_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1acdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc1dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vc2enc_dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vdpau.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vdpau_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version_major.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videodsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="videotoolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vlc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbis_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbis_enc_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbis_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbis_parser_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vorbisdsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp3data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp3dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp4data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp5data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp6data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp8data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp8dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp9data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp9dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp9dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp9shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp56.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp56data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp56dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vp89_rac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vpx_rac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vt_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wavpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wavpackenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wma_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wma_freqs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmaprodata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmavoice_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmv2data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmv2dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmv2dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wmv2enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xiph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xvididct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xvmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libavcodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allcodecs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avpacket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodec_fixed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codec_desc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bsf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_thread_encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_frame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parsers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codec_par.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodecheader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodec_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitstream_filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_slice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudio_parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dct32_fixed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dct32_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodsp_fixed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodsp_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiodsp_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpegaudiotabs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3_header_decompress_bsf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fft_fixed_32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rdft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fft_float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\ffmpeg-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{012859C6-B289-4D7A-BCB5-AA3070D93584}</ProjectGuid>
+    <RootNamespace>libavdevice</RootNamespace>
+    <ProjectName>libavdevice</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="libavdevice.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alsa.h" />
+    <ClInclude Include="avdevice.h" />
+    <ClInclude Include="decklink_common.h" />
+    <ClInclude Include="decklink_common_c.h" />
+    <ClInclude Include="decklink_dec.h" />
+    <ClInclude Include="decklink_enc.h" />
+    <ClInclude Include="dshow_capture.h" />
+    <ClInclude Include="fbdev_common.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="opengl_enc_shaders.h" />
+    <ClInclude Include="oss.h" />
+    <ClInclude Include="pulse_audio_common.h" />
+    <ClInclude Include="sndio.h" />
+    <ClInclude Include="timefilter.h" />
+    <ClInclude Include="v4l2-common.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="version_major.h" />
+  </ItemGroup>
+</Project>

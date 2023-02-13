@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="..\ffmpeg-lib.props" />
+  </ImportGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9454712-3E00-462B-A0FC-74582A32ACF4}</ProjectGuid>
+    <RootNamespace>libavfilter</RootNamespace>
+    <ProjectName>libavfilter</ProjectName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="libavfilter.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="af_afir.h" />
+    <ClInclude Include="af_afirdsp.h" />
+    <ClInclude Include="af_anlmdndsp.h" />
+    <ClInclude Include="af_volume.h" />
+    <ClInclude Include="atadenoise.h" />
+    <ClInclude Include="audio.h" />
+    <ClInclude Include="avfilter.h" />
+    <ClInclude Include="avf_showcqt.h" />
+    <ClInclude Include="bbox.h" />
+    <ClInclude Include="blend.h" />
+    <ClInclude Include="boxblur.h" />
+    <ClInclude Include="bufferqueue.h" />
+    <ClInclude Include="buffersink.h" />
+    <ClInclude Include="buffersrc.h" />
+    <ClInclude Include="bwdif.h" />
+    <ClInclude Include="colorspace.h" />
+    <ClInclude Include="colorspacedsp.h" />
+    <ClInclude Include="convolution.h" />
+    <ClInclude Include="deshake.h" />
+    <ClInclude Include="dnn_filter_common.h" />
+    <ClInclude Include="dnn_interface.h" />
+    <ClInclude Include="drawutils.h" />
+    <ClInclude Include="ebur128.h" />
+    <ClInclude Include="edge_common.h" />
+    <ClInclude Include="fflcms2.h" />
+    <ClInclude Include="filters.h" />
+    <ClInclude Include="formats.h" />
+    <ClInclude Include="framepool.h" />
+    <ClInclude Include="framequeue.h" />
+    <ClInclude Include="framerate.h" />
+    <ClInclude Include="framesync.h" />
+    <ClInclude Include="gblur.h" />
+    <ClInclude Include="generate_wave_table.h" />
+    <ClInclude Include="gradfun.h" />
+    <ClInclude Include="hermite.h" />
+    <ClInclude Include="hflip.h" />
+    <ClInclude Include="internal.h" />
+    <ClInclude Include="lavfutils.h" />
+    <ClInclude Include="limiter.h" />
+    <ClInclude Include="lswsutils.h" />
+    <ClInclude Include="lut3d.h" />
+    <ClInclude Include="maskedclamp.h" />
+    <ClInclude Include="maskedmerge.h" />
+    <ClInclude Include="median.h" />
+    <ClInclude Include="motion_estimation.h" />
+    <ClInclude Include="opencl.h" />
+    <ClInclude Include="opencl_source.h" />
+    <ClInclude Include="palette.h" />
+    <ClInclude Include="preserve_color.h" />
+    <ClInclude Include="psnr.h" />
+    <ClInclude Include="qp_table.h" />
+    <ClInclude Include="qsvvpp.h" />
+    <ClInclude Include="removegrain.h" />
+    <ClInclude Include="scale_eval.h" />
+    <ClInclude Include="scene_sad.h" />
+    <ClInclude Include="signature.h" />
+    <ClInclude Include="ssim.h" />
+    <ClInclude Include="stereo3d.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="threshold.h" />
+    <ClInclude Include="tinterlace.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="transpose.h" />
+    <ClInclude Include="unsharp.h" />
+    <ClInclude Include="v360.h" />
+    <ClInclude Include="vaapi_vpp.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="version_major.h" />
+    <ClInclude Include="vf_blend_init.h" />
+    <ClInclude Include="vf_eq.h" />
+    <ClInclude Include="vf_fspp.h" />
+    <ClInclude Include="vf_gblur_init.h" />
+    <ClInclude Include="vf_hflip_init.h" />
+    <ClInclude Include="vf_hqdn3d.h" />
+    <ClInclude Include="vf_idet.h" />
+    <ClInclude Include="vf_nlmeans.h" />
+    <ClInclude Include="vf_nlmeans_init.h" />
+    <ClInclude Include="vf_noise.h" />
+    <ClInclude Include="vf_overlay.h" />
+    <ClInclude Include="vf_pp7.h" />
+    <ClInclude Include="vf_pullup.h" />
+    <ClInclude Include="vf_scale_cuda.h" />
+    <ClInclude Include="vf_spp.h" />
+    <ClInclude Include="vf_threshold_init.h" />
+    <ClInclude Include="video.h" />
+    <ClInclude Include="vidstabutils.h" />
+    <ClInclude Include="vmaf_motion.h" />
+    <ClInclude Include="vsrc_ddagrab_shaders.h" />
+    <ClInclude Include="vulkan.h" />
+    <ClInclude Include="vulkan_filter.h" />
+    <ClInclude Include="w3fdif.h" />
+    <ClInclude Include="window_func.h" />
+    <ClInclude Include="yadif.h" />
+  </ItemGroup>
+</Project>
