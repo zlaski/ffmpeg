@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <FFMPEG_Root>$(MSBuildThisFileDirectory)</FFMPEG_Root>
+  </PropertyGroup>
+  <ItemGroup>
+    <BuildMacro Include="FFMPEG_Root">
+      <Value>$(FFMPEG_Root)</Value>
+    </BuildMacro>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(FFMPEG_Root)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4018;4057;4090;4100;4101;4113;4114;4127;4132;4133;4146;4189;4244;4245;4267;4295;4305;4324;4333;4334;4389;4456;4457;4459;4554;4566;4701;4702;4703;4706;6297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>
