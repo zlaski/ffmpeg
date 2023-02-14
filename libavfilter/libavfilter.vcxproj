@@ -5,8 +5,6 @@
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D9454712-3E00-462B-A0FC-74582A32ACF4}</ProjectGuid>
-    <RootNamespace>libavfilter</RootNamespace>
-    <ProjectName>libavfilter</ProjectName>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="libavfilter.c" />

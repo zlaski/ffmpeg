@@ -8,6 +8,11 @@
       <Value>$(FFMPEG_Root)</Value>
     </BuildMacro>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ffmpeg-headers.vcxproj">
+      <Project>{b7058364-6c36-44d8-a1d9-6162363bebb0}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(FFMPEG_Root)</AdditionalIncludeDirectories>

@@ -5,8 +5,6 @@
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{012859C6-B289-4D7A-BCB5-AA3070D93584}</ProjectGuid>
-    <RootNamespace>libavdevice</RootNamespace>
-    <ProjectName>libavdevice</ProjectName>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="libavdevice.c" />

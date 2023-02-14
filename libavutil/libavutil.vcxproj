@@ -5,14 +5,7 @@
   </ImportGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B684BBC8-E4C7-4687-BD82-9CFFCCF434C2}</ProjectGuid>
-    <RootNamespace>libavutil</RootNamespace>
-    <ProjectName>libavutil</ProjectName>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ffmpeg-headers.vcxproj">
-      <Project>{b7058364-6c36-44d8-a1d9-6162363bebb0}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adler32.h" />
     <ClInclude Include="aes.h" />

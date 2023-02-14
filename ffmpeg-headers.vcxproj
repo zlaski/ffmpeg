@@ -10,13 +10,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <PreBuildEvent>
-      <Command>ffmpeg-headers.bat "$(OutDir)"</Command>
+      <Command>ffmpeg-headers.pre.bat "$(OutDir)"</Command>
       <Message>Installing FFMPEG headers . . .</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ffmpeg-con.props" />
-    <None Include="ffmpeg-headers.bat" />
+    <None Include="ffmpeg-headers.pre.bat" />
     <None Include="ffmpeg-headers.lst" />
     <None Include="ffmpeg-lib.props" />
     <None Include="ffmpeg.props" />
@@ -30,7 +30,7 @@
     <ClInclude Include="config_components.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(registry:HKEY_CURRENT_USER\SOFTWARE\Akisystems\AKIBLD@Sources)akibld-lib.vcxproj">
+    <ProjectReference Include="$(registry:HKEY_CURRENT_USER\SOFTWARE\Akisystems\AKIBLD@Sources)akibld-headers.vcxproj">
       <Project>{23650bdb-c46f-43ce-8c77-056924f69b6a}</Project>
     </ProjectReference>
   </ItemGroup>

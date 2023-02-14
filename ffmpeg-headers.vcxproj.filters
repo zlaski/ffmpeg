@@ -19,7 +19,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ffmpeg-headers.bat">
+    <None Include="ffmpeg-headers.pre.bat">
       <Filter>Build Files</Filter>
     </None>
     <None Include="ffmpeg-headers.lst">
