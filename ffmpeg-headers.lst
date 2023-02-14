@@ -204,7 +204,6 @@ libavcodec\h263data.h
 libavcodec\h263dec.h
 libavcodec\h263dsp.h
 libavcodec\h263enc.h
-libavcodec\h263_parser.h
 libavcodec\h264.h
 libavcodec\h2645_parse.h
 libavcodec\h264chroma.h
@@ -319,7 +318,6 @@ libavcodec\mpeg4video.h
 libavcodec\mpeg4videodata.h
 libavcodec\mpeg4videodec.h
 libavcodec\mpeg4videoenc.h
-libavcodec\mpeg4video_parser.h
 libavcodec\mpegaudio.h
 libavcodec\mpegaudiodata.h
 libavcodec\mpegaudiodecheader.h
@@ -870,7 +868,6 @@ libavutil\camellia.h
 libavutil\cast5.h
 libavutil\channel_layout.h
 libavutil\colorspace.h
-libavutil\color_utils.h
 libavutil\common.h
 libavutil\cpu.h
 libavutil\cpu_internal.h
