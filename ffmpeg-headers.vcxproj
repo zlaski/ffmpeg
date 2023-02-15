@@ -29,9 +29,4 @@
     <ClInclude Include="config.h" />
     <ClInclude Include="config_components.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="$(registry:HKEY_CURRENT_USER\SOFTWARE\Akisystems\AKIBLD@Sources)akibld-headers.vcxproj">
-      <Project>{23650bdb-c46f-43ce-8c77-056924f69b6a}</Project>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

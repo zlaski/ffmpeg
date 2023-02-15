@@ -645,3 +645,21 @@ int ff_side_data_set_prft(AVPacket *pkt, int64_t timestamp)
 
     return 0;
 }
+
+/*
+
+#if defined _M_AMD64
+#define ARCH_X86 1
+#define ARCH_X86_32 0
+#define ARCH_X86_64 1
+#elif defined _M_IX86
+#define ARCH_X86 1
+#define ARCH_X86_32 1
+#define ARCH_X86_64 0
+#else
+#define ARCH_X86 0
+#define ARCH_X86_32 0
+#define ARCH_X86_64 0
+#endif
+
+*/
