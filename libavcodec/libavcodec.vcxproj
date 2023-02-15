@@ -567,10 +567,7 @@
   <ItemGroup>
     <ClCompile Include="allcodecs.c" />
     <ClCompile Include="avcodec.c" />
-    <ClCompile Include="avpacket.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="avpacket.c" />
     <ClCompile Include="bitstream_filters.c" />
     <ClCompile Include="bsf.c" />
     <ClCompile Include="codec_desc.c" />
@@ -584,7 +581,6 @@
     <ClCompile Include="fft_float.c" />
     <ClCompile Include="frame_thread_encoder.c" />
     <ClCompile Include="get_buffer.c" />
-    <ClCompile Include="libavcodec.c" />
     <ClCompile Include="mp3_header_decompress_bsf.c" />
     <ClCompile Include="mpegaudio.c" />
     <ClCompile Include="mpegaudiodata.c" />
